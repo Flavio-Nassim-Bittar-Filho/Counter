@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply
+  w-screen
+  h-screen
+}
+
+body,#root {
+  @apply
+  w-full
+  h-full
+}
+
+#root {
+  @apply
+  w-full
+  h-full
+  flex
+  flex-col
+  justify-center
+  items-center
+}
