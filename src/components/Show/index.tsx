@@ -1,6 +1,6 @@
-import { useGlobal } from '../../context/hooks/useGlobal'
+import { useCounter } from '../../hooks/useCounter'
 
 export const Show = () => {
-  const { counter } = useGlobal()
+  const { counter } = useCounter()
   return <h1 className='text-8xl font-light'>{counter}</h1>
 }
