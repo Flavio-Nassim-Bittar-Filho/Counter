@@ -1,12 +1,12 @@
 import { Show } from './components/Show'
 import { Wrapper } from './components/Wrapper'
-import { AppContext } from './context/AppContext'
+import { CounterContextProvider } from './context/CounterContext'
 
 export const App = () => {
   return (
-    <AppContext>
+    <CounterContextProvider>
       <Show />
       <Wrapper />
-    </AppContext>
+    </CounterContextProvider>
   )
 }
