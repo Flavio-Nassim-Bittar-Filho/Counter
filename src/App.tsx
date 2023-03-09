@@ -2,7 +2,7 @@ import { Show } from './components/Show'
 import { Wrapper } from './components/Wrapper'
 import { CounterContextProvider } from './context/CounterContext'
 
-export const App = () => {
+export function App() {
   return (
     <CounterContextProvider>
       <Show />

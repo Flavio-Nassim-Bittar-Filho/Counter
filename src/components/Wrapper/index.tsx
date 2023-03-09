@@ -1,7 +1,7 @@
 import { Button } from '../Button'
 import { useCounter } from '../../hooks/useCounter'
 
-export const Wrapper = () => {
+export function Wrapper() {
   const { decrement, reset, increment } = useCounter()
 
   return (
