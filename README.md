@@ -39,7 +39,8 @@
 
 - React.js
   - useState - Hook
-  - useContext - Hook
+  - useCallBack -Hook
+  - useContext
 - TypeScript
   - Interface
 - Tailwind
